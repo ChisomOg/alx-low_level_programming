@@ -1,8 +1,8 @@
 #include<unistd.h>
 /** 
- *  main- entry of progam.
+ *main- entry of progam
  *
- * return- of success.
+ *Return: of success
  */
 int main(void)
 {
