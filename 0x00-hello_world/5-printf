@@ -1,0 +1,12 @@
+#include <stdio.h>
+/**
+* main- Entry for code
+*
+* Return - returns successful
+*/
+int main(void)
+{
+	printf("with proper grammar, but the outcome is a piece of art, \n");
+	return(0);
+}
+
