@@ -1,5 +1,5 @@
 #include <unistd.h>
-/** 
+/**
  *main- entry of progam.
  *
  *Return: 1 on success.
