@@ -1,5 +1,5 @@
 #include <stdio.h>
-/** 
+/**
  * main - entry for code
  *
  * Return: if 0 a success
@@ -13,10 +13,10 @@ int main(void)
 
 	for (i = '0'; i <= '9'; i++)
 	{
-		for (j = 'k'; j <= '9'; j++)
+		for (j = k; j <= '9'; j++)
 		{
 			if (i != j)
-			{ 
+			{
 				putchar(i);
 				putchar(j);
 			}
@@ -28,7 +28,7 @@ int main(void)
 			{
 				break;
 			}
-			else 
+			else
 			{
 				putchar(',');
 				putchar(' ');
