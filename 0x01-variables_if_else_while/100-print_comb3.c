@@ -9,9 +9,11 @@ int main(void)
 {
 	int i;
 	int j;
+	int k = '0';
+
 	for (i = '0'; i <= '9'; i++)
 	{
-		for (j = '0'; j <= '9'; j++)
+		for (j = 'k'; j <= '9'; j++)
 		{
 			if (i != j)
 			{ 
@@ -32,6 +34,7 @@ int main(void)
 				putchar(' ');
 			}
 		}
+		k++;
 	}
 	putchar('\n');
 	return (0);
