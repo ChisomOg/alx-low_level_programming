@@ -1,5 +1,5 @@
 #include <stdio.h>
-/** 
+/**
  * main - entry for code
  *
  * Return: return 0 if success
