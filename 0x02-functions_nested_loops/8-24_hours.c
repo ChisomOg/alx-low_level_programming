@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer- prints every minute 
+ * jack_bauer- prints every minute
  */
 void jack_bauer(void)
 {
@@ -16,6 +16,7 @@ void jack_bauer(void)
 			_putchar(':');
 			_putchar((min / 10) + 48);
 			_putchar((min % 10) + 48);
+			_putchar('\n');
 		}
 	}
 }
