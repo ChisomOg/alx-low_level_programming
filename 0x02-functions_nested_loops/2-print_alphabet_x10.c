@@ -1,7 +1,11 @@
 #include  "main.h"
 
 /**
- * pront_alphabet -functions that will print the alphabet 10 times
+ * main - entry for value
+ *
+ * Description: print alphabet 10 times
+ *
+ * Return: 0 if success
  *
  */
 
