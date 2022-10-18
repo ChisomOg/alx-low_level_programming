@@ -6,7 +6,7 @@
  * Return: return 1 if 'c' is a lowercase
  */
 
-int _islower(int c)
+int _islower(void)
 {
 	int c;
 
