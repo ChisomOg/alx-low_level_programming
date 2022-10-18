@@ -1,6 +1,6 @@
 #include "main.h"
 
-/** 
+/**
  * times_table- produces time table
  */
 
@@ -15,7 +15,7 @@ void times_table(void)
 		{
 			_putchar(',');
 			_putchar(' ');
-			
+
 			prod = i * j;
 
 			if (prod <= 9)
