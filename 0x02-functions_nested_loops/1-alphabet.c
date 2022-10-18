@@ -2,14 +2,13 @@
 
 /**
  *main - Entry point
- * 
+ *
  *Description: prints alphabet
  *
  * Return: 0 always success
  */
 
 void print_alphabet(void)
-
 {
 	int ch;
 
