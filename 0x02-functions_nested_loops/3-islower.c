@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * _islower - lower on ASCII value
  *
- * Description: prints low alphabet
+ * @c: The value is checked
  *
  * Return: return 1 if 'c' is a lowercase
  */
