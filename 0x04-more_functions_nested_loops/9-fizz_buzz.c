@@ -1,5 +1,4 @@
 #include"main.h"
-
 /**
  * main - print number 1 - 100
  *
@@ -29,4 +28,3 @@ int main(void)
 
 	return (0);
 }
-
