@@ -53,7 +53,7 @@ void largest_prime_factor(long int num)
 /**
  * main - entry point
  *
- * Retur: Always 0
+ * Return: Always 0
  */
 
 int main(void)
