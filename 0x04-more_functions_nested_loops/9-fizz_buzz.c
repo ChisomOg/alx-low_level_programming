@@ -1,6 +1,8 @@
 #include"main.h"
 /**
  * main - print number for buzz and fizz
+ *
+ * Return: always 0
  */
 
 int main(void)
