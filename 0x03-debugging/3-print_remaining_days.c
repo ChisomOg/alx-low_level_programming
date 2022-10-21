@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * print_remianing_days - take a date and print left days
+ * print_remaining_days - take a date and print left days
  *
- * @month: month in number format'
- * @day: day pf month
+ * @month: month in number format
+ * @day: day of month
  * @year: year
  *
  * Return: return success
  */
 
-void print_remaining_days(int month, int days, int year)
+void print_remaining_days(int month, int day, int year)
 {
 	if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
 	{
