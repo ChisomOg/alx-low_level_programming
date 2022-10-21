@@ -1,17 +1,13 @@
 #include"main.h"
 /**
- * main - print number 1 - 100
- *
- * Description: multiples between 0 and 100
- *
- * Return: Always 0 (success)
+ * main - print number for buzz and fizz
  */
 
 int main(void)
 {
 	int num;
 
-	for (num = 1; num <= 99; ++num)
+	for (num = 1; num <= 100; ++num)
 	{
 		if (num % 3 == 0)
 			printf("Fizz ");
