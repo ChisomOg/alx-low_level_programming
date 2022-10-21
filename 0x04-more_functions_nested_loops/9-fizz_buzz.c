@@ -1,9 +1,9 @@
 #include"main.h"
 
 /**
- *main - print number for buzz and fizz
+ *main - Print number for buzz and fizz
  *
- *Return: always 0
+ *Return: Always 0
  */
 
 int main(void)
