@@ -1,4 +1,5 @@
 #include"main.h"
+
 /**
  *main - print number for buzz and fizz
  *
@@ -8,7 +9,7 @@
 int main(void)
 {
 	int num;
-	
+
 	for (num = 1; num <= 100; ++num)
 	{
 		if (num % 3 == 0)
@@ -19,7 +20,6 @@ int main(void)
 			printf("FizzBuzz");
 		else
 			printf("%i", num);
-		
 		if (num != 100)
 			printf(" ");
 		else
