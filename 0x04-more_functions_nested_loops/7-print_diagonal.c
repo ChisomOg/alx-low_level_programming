@@ -3,15 +3,17 @@
  * print_diagonal - print a diagonal line
  *
  * @n: is the number of times
+ *
+ * Description: draws a diagonal line
+ *
+ * Return: Always 0
  */
 
 void print_diagonal(int n)
 {
 	int postn = 0, space;
 
-	if (n <= 0)
-		_putchar('\n');
-	else
+	if (n > 0)
 	{
 		while (postn < n)
 		{
@@ -23,5 +25,9 @@ void print_diagonal(int n)
 			_putchar('\n');
 			++postn;
 		}
+	}
+	else
+	{
+		_putchar('\n');
 	}
 }
