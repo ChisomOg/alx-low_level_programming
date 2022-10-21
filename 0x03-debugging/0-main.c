@@ -1,9 +1,9 @@
 #include"main.h"
 
 /**
- * main - test function
+ *main - test function
  *
- * Return: always success for 0
+ *Return: always success for 0
  */
 
 int main(void)
