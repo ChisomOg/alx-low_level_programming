@@ -1,4 +1,5 @@
 #include"main.h"
+#include <stdio.h>
 /**
  * main - print number for buzz and fizz
  *
@@ -8,7 +9,7 @@
 int main(void)
 {
 	int num;
-
+	
 	for (num = 1; num <= 100; ++num)
 	{
 		if (num % 3 == 0)
