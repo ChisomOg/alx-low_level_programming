@@ -2,8 +2,9 @@
 
 /**
  * reset_to_98 - reset value to 98
- * @n
- * ; parameter targeted
+ * @n: parameter targeted
+ *
+ * Decription: returns 98
  * Return: nothing
  */
 
