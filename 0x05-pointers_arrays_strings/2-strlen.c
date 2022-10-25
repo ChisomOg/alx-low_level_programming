@@ -15,5 +15,5 @@ int _stn(char *s)
 	for (count = 0; s[count] != '\0'; count++)
 		in++;
 
-	return (inc);
+	return (in);
 }
