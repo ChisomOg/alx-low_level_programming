@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * put2 - puts every character
+ * puts2 - puts every character
  *@str: strings to print
  *
  * Description: prints every charcarter of the string
