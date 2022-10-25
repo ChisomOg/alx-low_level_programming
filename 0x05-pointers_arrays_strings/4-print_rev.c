@@ -12,7 +12,7 @@ void print_rev(char *s)
 {
 	int len = 0, i, left;
 
-	len = strlen(s);
+	len = _strlen(s);
 	left = 0;
 	for (i = len -1; len >= left; i--)
 	{
@@ -27,7 +27,7 @@ void print_rev(char *s)
  * Return: returns length;
  */
 
-int strlen(char *s)
+int _strlen(char *s)
 {
 	int count, inc;
 	inc = 0;
