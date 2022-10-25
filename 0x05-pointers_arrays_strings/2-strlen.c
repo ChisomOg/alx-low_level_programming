@@ -7,7 +7,7 @@
  * Return: return 0 for success
  */
 
-int _strlenn(char *s)
+int _strlen(char *s)
 {
 	int count, in;
 
