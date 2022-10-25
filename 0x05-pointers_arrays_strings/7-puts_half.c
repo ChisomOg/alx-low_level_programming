@@ -32,7 +32,7 @@ void puts_half(char *str)
 		while (str[diff] != '\0')
 		{
 			_putchar(str[diff]);
-			dif++;
+			diff++;
 		}
 	}
 	_putchar('\n');
