@@ -3,8 +3,9 @@
 /**
  * reverse_array - function that reverses array
  * @a: array
- * @m: number of elements
+ * @n: number of elements
  *
+ * Description: reverses the array and prints it
  * Return: returns the reverse value
  */
 

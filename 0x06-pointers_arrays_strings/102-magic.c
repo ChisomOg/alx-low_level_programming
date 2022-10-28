@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/**
+ * main - makes magic
+ */
+
 int main(void)
 {
 	int n;
