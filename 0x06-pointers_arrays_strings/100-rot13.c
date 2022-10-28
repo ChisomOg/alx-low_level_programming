@@ -1,20 +1,12 @@
 #include "main.h"
 
-
-
 /**
- *
  * rot13 - encode string
- *
  * @str: input string
  *
  * Description: encodes a string using rot13
- *
  * Return: always (0)
- *
  */
-
-
 
 char *rot13(char *str)
 
@@ -23,7 +15,7 @@ char *rot13(char *str)
 	
 	char s[] =  "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char s1[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
-	for (; str[i] != '\0'; i++)
+	for (str[i] != '\0'; i++)
 	{
 		for (j = 0; j <= 51; j++)
 		{
