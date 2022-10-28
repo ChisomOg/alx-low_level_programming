@@ -6,7 +6,7 @@
  * @src: second input
  *
  * Description: appends the string
- * Return: dest
+ * Return: dest is printed
  */
 
 char *_strcat(char *dest, char *src)
@@ -14,6 +14,7 @@ char *_strcat(char *dest, char *src)
 	int i, len;
 
 	len = 0;
+
 	while (dest[len] != '\0')
 	{
 		++len;
@@ -23,5 +24,6 @@ char *_strcat(char *dest, char *src)
 		dest[len] = src[i];
 	}
 	dest[len] = '\0';
+
 	return (dest);
 }
