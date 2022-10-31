@@ -1,7 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
-#include <stddef.h>
-#include <stdio.h>
+#ifndef FILE_HOBERTON
+#define FLE_HOLBERTON
 
 void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
