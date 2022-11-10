@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * string_noncat - Concatenates two strings
+ * string_nconcat - Concatenates two strings
  * @s1: The first string
  * @s2: The second string
  * @n: maximum number of bytes
@@ -9,7 +9,7 @@
  * Return: if the function fails null
  */
 
-char *srtring_nconcat(char *s1, char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *concat;
 	unsigned int len = n, index;
