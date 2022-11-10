@@ -1,4 +1,4 @@
-#include "mainh"
+#include "main.h"
 
 /**
  * array_range - creates an array of int

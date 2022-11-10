@@ -23,7 +23,7 @@ char *srtring_nconcat(char *s1, char *s2, unsigned int n)
 	for (index = 0; s1[index]; index++)
 		len++;
 
-	concat = malloc(sizepf(char) * (len + 1));
+	concat = malloc(sizeof(char) * (len + 1));
 
 	if (concat == NULL)
 		return (NULL);
