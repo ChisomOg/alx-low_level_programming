@@ -35,13 +35,12 @@ void print_int(va_list arg)
 	num = va_arg(arg, int);
 
 	printf("%d", num);
-
 }
 
 /**
  * print_float - Prints a float.
  *
- *  @arg: A list of arguments pointing to
+ * @arg: A list of arguments pointing to
  *
  * the float to be printed.
  *
@@ -54,7 +53,6 @@ void print_float(va_list arg)
 	num = va_arg(arg, double);
 
 	printf("%f", num);
-
 }
 
 /**
@@ -62,7 +60,7 @@ void print_float(va_list arg)
  *
  * @arg: A list of arguments pointing to
  *
- *  the string to be printed.
+ * the string to be printed.
  *
  */
 
